@@ -47,8 +47,9 @@ def query(field, value):
     if data.empty:
         return {"error": "no data found", "field": field, "value": value}, 404
 
-    data = data.to_json(orient="records")
-
+    return Response(
+        data.to_json(orient="records"),
+        mimetype='application/json')
 
 # WEB PAGE ROUTES
 @app.route("/")
