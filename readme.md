@@ -4,7 +4,7 @@ Aquest projecte inclou com carregar dataframes (Pandas), serveis web (Flask, req
 Jinja per tal de tenir una base per crear un portal de dades obertes atractiu.
 
 Li faltarien mecanismes com els formularis, la gestió d'usuaris i sessions securitzades per a ser una plantilla per a projectes de DAWBIO completa; que 
-quedarà pendent crear-la a inicis del 2024.
+quedarà pendent crear-la durant el 2024.
 
 ### Install venv environment.
 
